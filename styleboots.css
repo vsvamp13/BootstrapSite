@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: sans-serif, "Helvetica Heue";
+
+}
+#nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar {
+	background-image: linear-gradient(90deg, #ffdb4d, #008000, #33bbff);
+	padding: 0;
+}
+.navbar-brand {
+	text-shadow: 3px -3px 4px #ff4dd2;
+	color: #fff !important;
+	font-size: 30px !important;
+	font-weight: 900;
+}
+.navbar-nav li {
+	padding: 0 15px;
+}
+.navbar-nav li a {
+	color: white !important;
+	font-weight: 600;
+	float: right;
+}
+.fa-bars {
+	color: #fff !important;
+	font-size: 30px;
+}
+.container {
+	background-image: linear-gradient(90deg, #ffdb4d, #008000, #33bbff);
+}
+.text-center {
+	background-image: linear-gradient(90deg, #ffdb4d, #008000, #33bbff);
+	padding: 30px 0 30px 0;
+	color: white;
+}
+.striped {
+	text-decoration: line-through;
+}
+table {
+	margin: auto;
+	
+}
+td {
+	padding: 10px 18px 10px 18px;
+}
+.list-group {
+	padding-bottom: 10px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  form {
+  	text-align: left;
+}
+footer {
+	background-color: blue;
+	color: white;
+}
+.text-muted {
+	background-color: lightgreen;
+}
